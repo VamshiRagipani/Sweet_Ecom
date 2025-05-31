@@ -950,8 +950,8 @@ export const ContactUs = () => {
                 <div>
                   <h3 className="font-semibold text-gray-900">Address</h3>
                   <p className="text-gray-600">
-                    Liberty Road, Opp TTD Temple,<br />
-                    Himayatnagar, Hyderabad, 500029
+                    36-137/4, Defence Colony, Malkajgiri Circle 28,<br />
+                    Sainikpuri, Secunderabad
                   </p>
                 </div>
               </div>
@@ -964,7 +964,7 @@ export const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+91 9000810182</p>
+                  <p className="text-gray-600">+91 9676647106</p>
                 </div>
               </div>
               
