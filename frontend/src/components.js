@@ -34,7 +34,7 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               <div className="relative group">
-                <Link 
+                {/* <Link 
                   to="/products" 
                   className="text-gray-700 hover:text-red-800 font-medium flex items-center"
                 >
@@ -42,9 +42,9 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
                   <svg className="ml-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
-              <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Our Brands</Link>
+              <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Our Products</Link>
               <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Corporate Gifting</Link>
               <Link to="/about" className="text-gray-700 hover:text-red-800 font-medium">About Us</Link>
               <Link to="/contact" className="text-gray-700 hover:text-red-800 font-medium">Contact Us</Link>
@@ -106,7 +106,7 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
             <div className="md:hidden py-4 border-t border-gray-200">
               <nav className="flex flex-col space-y-4">
                 <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Shop</Link>
-                <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Our Brands</Link>
+                <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Our Products</Link>
                 <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Corporate Gifting</Link>
                 <Link to="/about" className="text-gray-700 hover:text-red-800 font-medium">About Us</Link>
                 <Link to="/contact" className="text-gray-700 hover:text-red-800 font-medium">Contact Us</Link>
