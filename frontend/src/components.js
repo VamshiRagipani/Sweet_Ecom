@@ -27,7 +27,7 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <div className="text-3xl font-bold text-red-800" style={{fontFamily: 'cursive'}}>
-                Varahey
+                Varahey Sweets
               </div>
             </Link>
 
@@ -977,7 +977,7 @@ export const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">sales@Varahey.co.in</p>
+                  <p className="text-gray-600">sales@VaraheySweets.co.in</p>
                 </div>
               </div>
             </div>
@@ -1002,7 +1002,7 @@ export const AboutUs = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Hero Section */}
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Varahey</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Varahey Sweets</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Crafting Traditional Indian Sweets with Love and Excellence Since 1993
         </p>
@@ -1135,9 +1135,9 @@ export const AboutUs = () => {
 
       {/* Call to Action */}
       <div className="text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Experience the Varahey Difference</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-4">Experience the Varahey Sweets Difference</h2>
         <p className="text-xl text-gray-600 mb-8">
-          Join millions of satisfied customers who trust Varahey for their sweet celebrations
+          Join millions of satisfied customers who trust Varahey Sweets for their sweet celebrations
         </p>
         <Link
           to="/products"
@@ -1180,7 +1180,7 @@ export const Footer = () => {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span className="text-sm">sales@Varahey.co.in</span>
+                <span className="text-sm">sales@Varaheysweets.co.in</span>
               </div>
             </div>
           </div>
@@ -1235,7 +1235,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-red-700 mt-8 pt-8 text-center text-red-100">
-          <p>&copy; Copyright 2024, Varahey. All Rights Reserved.</p>
+          <p>&copy; Copyright 2024, Varahey Sweets. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
