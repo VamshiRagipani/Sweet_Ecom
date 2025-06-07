@@ -977,7 +977,7 @@ export const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">sales@VaraheySweets.co.in</p>
+                  <p className="text-gray-600">---</p>
                 </div>
               </div>
             </div>
@@ -1012,9 +1012,9 @@ export const AboutUs = () => {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Varahey Sweets</h1>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        {/* <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           Crafting Traditional Indian Sweets with Love and Excellence Since 1993
-        </p>
+        </p> */}
       </div>
 
       {/* Story Section */}
@@ -1022,7 +1022,7 @@ export const AboutUs = () => {
         <div>
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
           <div className="space-y-4 text-gray-700">
-            <p>
+            {/* <p>
               Established in 1993 by Mr. Rajesh Dadu in Hyderabad, India, Dadu's Sweets began as a 
               modest 800 sq. ft. shop named 'Dadu's Mithai Vatika' in Himayatnagar. What started as 
               a passionate pursuit of excellence has evolved into one of India's most prominent brands 
@@ -1038,13 +1038,26 @@ export const AboutUs = () => {
               In 2015, we expanded our presence to Pune under the leadership of Mr. Rusheel Dadu, 
               the next generation of the Dadu family, bringing our time-tested recipes and quality 
               standards to a new market.
-            </p>
-          </div>
+            </p> */}
+          <p>
+              Varahey Sweets is more than just a sweet shop – it's a story of tradition, love, and timeless taste.
+              Our journey began many years ago with a simple dream: to share the rich flavors of Indian sweets made the traditional way.
+          </p>
+          <p>
+            Passed down through generations, our recipes carry the warmth of homemade goodness.
+            Every sweet is made with care, using high-quality ingredients and time-tested methods.
+            From the softest laddus to the richest burfis, each bite brings back memories of home, festivals, and family gatherings.
+          </p>  
+          <p>
+            Whether you're celebrating a festival, a special day, or just want to enjoy something sweet,
+            Varahey Sweets is here to make your moments more joyful and delicious.
+          </p>
+         </div>
         </div>
         
         <div>
           <img
-            src="/assets/images/4.webp"
+            src="/assets/images/10.jpg"
             alt="Dadu's Sweets Heritage"
             className="w-full h-80 object-cover rounded-lg shadow-lg"
           />
@@ -1124,19 +1137,19 @@ export const AboutUs = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Our Achievements</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           <div>
-            <div className="text-4xl font-bold mb-2">30+</div>
+            <div className="text-4xl font-bold mb-2">10+</div>
             <div className="text-red-200">Years of Excellence</div>
           </div>
           <div>
-            <div className="text-4xl font-bold mb-2">500+</div>
+            <div className="text-4xl font-bold mb-2">100+</div>
             <div className="text-red-200">In-house Products</div>
           </div>
           <div>
-            <div className="text-4xl font-bold mb-2">10+</div>
+            <div className="text-4xl font-bold mb-2">1+</div>
             <div className="text-red-200">Store Locations</div>
           </div>
           <div>
-            <div className="text-4xl font-bold mb-2">1M+</div>
+            <div className="text-4xl font-bold mb-2">5k+</div>
             <div className="text-red-200">Happy Customers</div>
           </div>
         </div>
