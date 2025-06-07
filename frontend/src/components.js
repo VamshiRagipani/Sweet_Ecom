@@ -45,7 +45,7 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
                 </Link> */}
               </div>
               <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Our Products</Link>
-              <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Corporate Gifting</Link>
+              {/* <Link to="/products" className="text-gray-700 hover:text-red-800 font-medium">Corporate Gifting</Link> */}
               <Link to="/about" className="text-gray-700 hover:text-red-800 font-medium">About Us</Link>
               <Link to="/contact" className="text-gray-700 hover:text-red-800 font-medium">Contact Us</Link>
             </nav>
@@ -964,7 +964,7 @@ export const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+91 9676647106</p>
+                  <p className="text-gray-600">+91 8341366944</p>
                 </div>
               </div>
               
@@ -987,7 +987,16 @@ export const ContactUs = () => {
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Find Us</h3>
             <div className="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-              <span className="text-gray-500">Interactive Map Location</span>
+             <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d121747.24617600489!2d78.4770584!3d17.526529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9bef86b5c239%3A0x458a8aeeb82163e!2sVARAHEY%20SWEETS!5e0!3m2!1sen!2sin!4v1749318534395!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Varahey Sweets Location"
+              ></iframe>
             </div>
           </div>
         </div>
@@ -1035,7 +1044,7 @@ export const AboutUs = () => {
         
         <div>
           <img
-            src="https://images.pexels.com/photos/8887004/pexels-photo-8887004.jpeg"
+            src="/assets/images/4.webp"
             alt="Dadu's Sweets Heritage"
             className="w-full h-80 object-cover rounded-lg shadow-lg"
           />
@@ -1173,7 +1182,7 @@ export const Footer = () => {
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="text-sm">+91 9000810182</span>
+                <span className="text-sm">+91 8341366944</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
