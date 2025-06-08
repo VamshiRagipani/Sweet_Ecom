@@ -16,11 +16,29 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
   return (
     <header className="w-full">
       {/* Top Banner */}
-      <div className="bg-red-800 text-white text-center py-2 text-sm">
-        <span className="font-medium">
-          FREE Shipping now available on all orders over 1 KG!
-        </span>
-      </div>
+     <div className="bg-red-800 text-white text-center py-2 text-sm overflow-hidden">
+  <div
+    className="inline-block whitespace-nowrap animate-marquee font-semibold"
+    style={{ minWidth: '100%' }}
+  >
+    1 KG and Above? Shipping’s On Us! &nbsp; • &nbsp; Order Now and Enjoy Sweet Savings!
+  </div>
+</div>
+
+<style jsx>{`
+  @keyframes marquee {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  .animate-marquee {
+    animation: marquee 16s linear infinite;
+  }
+`}</style>
+
 
       {/* Main Header */}
       <div className="bg-white shadow-sm border-b border-gray-200">
@@ -345,13 +363,16 @@ export const HomePage = ({ products, addToCart }) => {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
               <h1 className="text-4xl lg:text-5xl font-semibold text-rose-800 mb-4 leading-snug">
-                Sweet News 🍬
+                
+                <span className="inline-block animate-bounce">
+                 Sweet{" "} News 🧡
+                </span>
                 <br />
                 Free Delivery Within 5km!
               </h1>
 
               <p className="text-xl text-gray-800 mb-8 py-3">
-                Close? It’s Free.. <br/>
+                Close? It’s Free.. <br />
                 Far? We’re Still There..
               </p>
               <Link
