@@ -312,7 +312,7 @@ export const ProductCard = ({ product, addToCart, showAddToCart = true }) => {
             onClick={() => addToCart(product)}
             className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"
           >
-            Check Pincode Availability
+            Crave It? Cart It
           </button>
         )}
       </div>
@@ -350,8 +350,9 @@ export const HomePage = ({ products, addToCart }) => {
                 Free Delivery Within 5km!
               </h1>
 
-              <p className="text-xl text-gray-800 mb-8">
-                Close? It’s Free. Far? We’re Still There
+              <p className="text-xl text-gray-800 mb-8 py-3">
+                Close? It’s Free.. <br/>
+                Far? We’re Still There..
               </p>
               <Link
                 to="/products"
@@ -376,13 +377,13 @@ export const HomePage = ({ products, addToCart }) => {
 
                 {/* FREE SHIPPING badges */}
                 <div className="absolute -top-4 -left-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold animate-bounce">
-                  FREE SHIPPING
+                  FREE DELIVERY
                 </div>
                 <div className="absolute top-8 -right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold animate-bounce delay-100">
-                  FREE SHIPPING
+                  FREE DELIVERY
                 </div>
                 <div className="absolute -bottom-4 left-8 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold animate-bounce delay-200">
-                  FREE SHIPPING
+                  FREE DELIVERY
                 </div>
               </div>
             </div>
@@ -872,9 +873,9 @@ export const ProductDetail = ({ products, addToCart }) => {
             >
               Add to Cart - ₹{product.price * quantity}
             </button>
-            <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
-              Check Pincode Availability
-            </button>
+            {/* <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+              Add to Cart
+            </button> */}
           </div>
         </div>
       </div>
