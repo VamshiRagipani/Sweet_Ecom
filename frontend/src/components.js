@@ -16,29 +16,29 @@ export const Header = ({ cartItemsCount, searchQuery, setSearchQuery }) => {
   return (
     <header className="w-full">
       {/* Top Banner */}
-     <div className="bg-red-800 text-white text-center py-2 text-sm overflow-hidden">
-  <div
-    className="inline-block whitespace-nowrap animate-marquee font-semibold"
-    style={{ minWidth: '100%' }}
-  >
-    1 KG and Above? Shipping’s On Us! &nbsp; • &nbsp; Order Now and Enjoy Sweet Savings!
-  </div>
-</div>
+      <div className="bg-red-800 text-white text-center py-2 text-sm overflow-hidden">
+        <div
+          className="inline-block whitespace-nowrap animate-marquee font-semibold"
+          style={{ minWidth: "100%" }}
+        >
+          1 KG and Above? Shipping’s On Us! &nbsp; • &nbsp; Order Now and Enjoy
+          Sweet Savings!
+        </div>
+      </div>
 
-<style jsx>{`
-  @keyframes marquee {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  .animate-marquee {
-    animation: marquee 16s linear infinite;
-  }
-`}</style>
-
+      <style jsx>{`
+        @keyframes marquee {
+          0% {
+            transform: translateX(-100%);
+          }
+          100% {
+            transform: translateX(100%);
+          }
+        }
+        .animate-marquee {
+          animation: marquee 16s linear infinite;
+        }
+      `}</style>
 
       {/* Main Header */}
       <div className="bg-white shadow-sm border-b border-gray-200">
@@ -363,9 +363,8 @@ export const HomePage = ({ products, addToCart }) => {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 mb-10 lg:mb-0">
               <h1 className="text-4xl lg:text-5xl font-semibold text-rose-800 mb-4 leading-snug">
-                
                 <span className="inline-block animate-bounce">
-                 Sweet{" "} News 🧡
+                  Sweet News 🧡
                 </span>
                 <br />
                 Free Delivery Within 5km!
@@ -373,7 +372,7 @@ export const HomePage = ({ products, addToCart }) => {
 
               <p className="text-xl text-gray-800 mb-8 py-3">
                 Close? It’s Free.. <br />
-                Far? We’re Still There..
+                Far? We’re Still There.. 😉
               </p>
               <Link
                 to="/products"
@@ -1491,9 +1490,11 @@ export const Footer = () => {
                   />
                 </svg>
                 <span className="text-sm">
-                  Liberty Road, Opp TTD Temple,
+                  36-137/4, Defence Colony, 
+                  <br/>
+                 Malkajgiri Circle 28
                   <br />
-                  Himayatnagar, Hyderabad, 500029
+                  Sainikpuri, Secunderabad
                 </span>
               </div>
               <div className="flex items-center space-x-2">
@@ -1515,7 +1516,7 @@ export const Footer = () => {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span className="text-sm">sales@Varaheysweets.co.in</span>
+                <span className="text-sm">--</span>
               </div>
             </div>
           </div>
