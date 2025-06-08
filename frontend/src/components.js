@@ -1489,13 +1489,18 @@ export const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="text-sm">
-                  36-137/4, Defence Colony, 
-                  <br/>
-                 Malkajgiri Circle 28
-                  <br />
-                  Sainikpuri, Secunderabad
-                </span>
+                <div>
+              <a
+                href="https://maps.app.goo.gl/7yL22guZ8k6qR3ve9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                36-137/4, Defence Colony, Malkajgiri Circle 28,
+                <br />
+                Sainikpuri, Secunderabad
+              </a>
+            </div>
               </div>
               <div className="flex items-center space-x-2">
                 <svg
