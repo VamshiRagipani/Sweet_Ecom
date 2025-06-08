@@ -1057,7 +1057,7 @@ export const AboutUs = () => {
         
         <div>
           <img
-            src="/assets/images/10.jpg"
+            src="/assets/Images/Shop.webp"
             alt="Dadu's Sweets Heritage"
             className="w-full h-80 object-cover rounded-lg shadow-lg"
           />
@@ -1257,7 +1257,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-red-700 mt-8 pt-8 text-center text-red-100">
-          <p>&copy; Copyright 2024, Varahey Sweets. All Rights Reserved.</p>
+          <p>&copy; Copyright 2025, Varahey Sweets. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
