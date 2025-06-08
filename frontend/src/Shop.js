@@ -4,14 +4,16 @@ const Products = [
     name: "Motichur Laddu",
     price: 275,
     originalPrice: 300,
-    image: "https://images.pexels.com/photos/18488297/pexels-photo-18488297.jpeg",
+    image:
+      "https://images.pexels.com/photos/18488297/pexels-photo-18488297.jpeg",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "5 Days",
-    description: "Traditional motichur laddu made with pure ghee and finest gram flour, perfect for festivals and celebrations.",
+    description:
+      "Traditional motichur laddu made with pure ghee and finest gram flour, perfect for festivals and celebrations.",
     ingredients: "Gram flour, Sugar, Ghee, Cardamom, Almonds",
     rating: 4.8,
-    reviews: 124
+    reviews: 124,
   },
   {
     id: 2,
@@ -22,24 +24,27 @@ const Products = [
     category: "Baklawas",
     weight: "500 Gms",
     shelfLife: "30 Days",
-    description: "Authentic Turkish baklawas with layers of phyllo pastry, nuts, and honey syrup.",
+    description:
+      "Authentic Turkish baklawas with layers of phyllo pastry, nuts, and honey syrup.",
     ingredients: "Phyllo pastry, Pistachios, Walnuts, Honey, Butter",
     rating: 4.9,
-    reviews: 89
+    reviews: 89,
   },
   {
     id: 3,
     name: "Kaju Katli",
     price: 565,
     originalPrice: 600,
-    image: "https://images.pexels.com/photos/18488310/pexels-photo-18488310.jpeg",
+    image:
+      "https://images.pexels.com/photos/18488310/pexels-photo-18488310.jpeg",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "10 Days",
-    description: "Premium cashew fudge with silver leaf, a royal treat for special occasions.",
+    description:
+      "Premium cashew fudge with silver leaf, a royal treat for special occasions.",
     ingredients: "Cashews, Sugar, Ghee, Silver leaf",
     rating: 4.7,
-    reviews: 156
+    reviews: 156,
   },
   {
     id: 4,
@@ -50,10 +55,11 @@ const Products = [
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "5 Days",
-    description: "Traditional Mysore pak made with pure ghee, gram flour and sugar.",
+    description:
+      "Traditional Mysore pak made with pure ghee, gram flour and sugar.",
     ingredients: "Gram flour, Sugar, Pure Ghee, Cardamom",
     rating: 4.6,
-    reviews: 98
+    reviews: 98,
   },
   {
     id: 5,
@@ -64,10 +70,11 @@ const Products = [
     category: "Sweets",
     weight: "500 Gms",
     shelfLife: "6 Days",
-    description: "Assorted traditional Indian sweets perfect for gifting and celebrations.",
+    description:
+      "Assorted traditional Indian sweets perfect for gifting and celebrations.",
     ingredients: "Various traditional ingredients",
     rating: 4.5,
-    reviews: 73
+    reviews: 73,
   },
   {
     id: 6,
@@ -81,7 +88,7 @@ const Products = [
     description: "Soft and spongy gulab jamuns soaked in aromatic sugar syrup.",
     ingredients: "Milk solids, Sugar, Ghee, Rose water, Cardamom",
     rating: 4.8,
-    reviews: 142
+    reviews: 142,
   },
   {
     id: 7,
@@ -92,52 +99,56 @@ const Products = [
     category: "Sweets",
     weight: "500 Gms",
     shelfLife: "10 Days",
-    description: "Traditional besan laddus made with roasted gram flour and ghee.",
+    description:
+      "Traditional besan laddus made with roasted gram flour and ghee.",
     ingredients: "Gram flour, Sugar, Ghee, Almonds, Cardamom",
     rating: 4.7,
-    reviews: 89
+    reviews: 89,
   },
   {
     id: 8,
     name: "Rasgulla",
     price: 210,
     originalPrice: 240,
-    image: "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NDg2NjUxNzl8MA&ixlib=rb-4.1.0&q=85",
+    image:
+      "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxyYXNndWxsYXxlbnwwfHx8fDE3NDg2NjUxNzl8MA&ixlib=rb-4.1.0&q=85",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "3 Days",
     description: "Soft and spongy cottage cheese balls in sugar syrup.",
     ingredients: "Cottage cheese, Sugar, Cardamom",
     rating: 4.6,
-    reviews: 67
+    reviews: 67,
   },
   {
     id: 9,
     name: "Coconut Burfi",
     price: 365,
     originalPrice: 400,
-    image: "https://images.pexels.com/photos/11484120/pexels-photo-11484120.jpeg",
+    image:
+      "https://images.pexels.com/photos/11484120/pexels-photo-11484120.jpeg",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "8 Days",
     description: "Fresh coconut burfi with a melt-in-mouth texture.",
     ingredients: "Fresh coconut, Sugar, Milk, Cardamom",
     rating: 4.4,
-    reviews: 54
+    reviews: 54,
   },
   {
     id: 10,
     name: "Soan Papdi",
     price: 285,
     originalPrice: 320,
-    image: "https://images.unsplash.com/photo-1605194000384-439c3ced8d15?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxsYWRkdXxlbnwwfHx8fDE3NDg2NjUxODV8MA&ixlib=rb-4.1.0&q=85",
+    image:
+      "https://images.unsplash.com/photo-1605194000384-439c3ced8d15?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxsYWRkdXxlbnwwfHx8fDE3NDg2NjUxODV8MA&ixlib=rb-4.1.0&q=85",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "15 Days",
     description: "Flaky and crispy soan papdi with a delicate texture.",
     ingredients: "Gram flour, Sugar, Ghee, Cardamom, Pistachios",
     rating: 4.3,
-    reviews: 41
+    reviews: 41,
   },
   {
     id: 11,
@@ -148,24 +159,26 @@ const Products = [
     category: "Dry Fruits",
     weight: "500 Gms",
     shelfLife: "90 Days",
-    description: "Premium quality mixed dry fruits including almonds, cashews, and pistachios.",
+    description:
+      "Premium quality mixed dry fruits including almonds, cashews, and pistachios.",
     ingredients: "Almonds, Cashews, Pistachios, Raisins, Dates",
     rating: 4.9,
-    reviews: 203
+    reviews: 203,
   },
   {
     id: 12,
     name: "Pistachio Rolls",
     price: 465,
     originalPrice: 520,
-    image: "https://images.unsplash.com/photo-1610550246952-0c906d3aca7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxsYWRkdXxlbnwwfHx8fDE3NDg2NjUxODV8MA&ixlib=rb-4.1.0&q=85",
+    image:
+      "https://images.unsplash.com/photo-1610550246952-0c906d3aca7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxsYWRkdXxlbnwwfHx8fDE3NDg2NjUxODV8MA&ixlib=rb-4.1.0&q=85",
     category: "Sweets",
     weight: "250 Gms",
     shelfLife: "12 Days",
     description: "Rich pistachio rolls with layers of nuts and sweet filling.",
     ingredients: "Pistachios, Milk solids, Sugar, Ghee",
     rating: 4.7,
-    reviews: 76
+    reviews: 76,
   },
   {
     id: 13,
@@ -179,7 +192,7 @@ const Products = [
     description: "Pani Puri.",
     ingredients: "pani puri",
     rating: 4.7,
-    reviews: 76
+    reviews: 76,
   },
   {
     id: 14,
@@ -190,12 +203,12 @@ const Products = [
     category: "Sweets",
     weight: "",
     shelfLife: "10 daya",
-    description: "Kaaju Katli.", 
+    description: "Kaaju Katli.",
     ingredients: "Milk, Sugar, Ghee",
     rating: 4.7,
-    reviews: 76
+    reviews: 76,
   },
-   {
+  {
     id: 15,
     name: "Samosa",
     price: 100,
@@ -204,84 +217,88 @@ const Products = [
     category: "Junk Food",
     weight: "5 Pc",
     shelfLife: "1 Day",
-    description: "Crispy and spicy potato-filled samosa, a popular Indian snack.",
+    description:
+      "Crispy and spicy potato-filled samosa, a popular Indian snack.",
     ingredients: "Potatoes, Peas, Spices, Wheat flour, Oil",
     rating: 4.8,
-    reviews: 150
+    reviews: 150,
   },
-{
-  id: 16,
-  name: "Kesar Peda",
-  price: 320,
-  originalPrice: 370,
-  image: "https://images.app.goo.gl/LKbWeiC3EtKHoYLw8",
-  category: "Sweets",
-  weight: "250 Gms",
-  shelfLife: "7 Days",
-  description: "Soft and aromatic peda infused with saffron and cardamom.",
-  ingredients: "Milk, Sugar, Saffron, Cardamom, Ghee",
-  rating: 4.6,
-  reviews: 92
-},
-{
-  id: 17,
-  name: "Badam Halwa",
-  price: 450,
-  originalPrice: 500,
-  image: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80",
-  category: "Sweets",
-  weight: "250 Gms",
-  shelfLife: "6 Days",
-  description: "Rich almond halwa with a melt-in-mouth texture and golden color.",
-  ingredients: "Almonds, Sugar, Ghee, Cardamom",
-  rating: 4.8,
-  reviews: 110
-},
-{
-  id: 18,
-  name: "Chocolate Barfi",
-  price: 295,
-  originalPrice: 340,
-  image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80",
-  category: "Sweets",
-  weight: "250 Gms",
-  shelfLife: "8 Days",
-  description: "Delicious chocolate flavored barfi, a fusion of tradition and modern taste.",
-  ingredients: "Milk, Sugar, Cocoa, Ghee, Cardamom",
-  rating: 4.5,
-  reviews: 67
-},
-{
-  id: 19,
-  name: "Dhokla",
-  price: 180,
-  originalPrice: 210,
-  image: "https://images.unsplash.com/photo-1603079841834-7b7c6b6b6b6b?auto=format&fit=crop&w=800&q=80",
-  category: "Snacks",
-  weight: "300 Gms",
-  shelfLife: "2 Days",
-  description: "Soft and spongy dhokla, a popular Gujarati snack.",
-  ingredients: "Gram flour, Yogurt, Spices, Eno, Oil",
-  rating: 4.7,
-  reviews: 88
-},
-{
-  id: 20,
-  name: "Kesar Jalebi",
-  price: 220,
-  originalPrice: 260,
-  image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80",
-  category: "Sweets",
-  weight: "250 Gms",
-  shelfLife: "2 Days",
-  description: "Crispy and juicy jalebis flavored with saffron.",
-  ingredients: "Flour, Sugar, Saffron, Ghee",
-  rating: 4.9,
-  reviews: 134
-},
-
+  {
+    id: 16,
+    name: "Kesar Peda",
+    price: 320,
+    originalPrice: 370,
+    image:
+      "https://www.shutterstock.com/image-photo/indian-sweet-called-peda-made-milk-1806274246",
+    category: "Sweets",
+    weight: "250 Gms",
+    shelfLife: "7 Days",
+    description: "Soft and aromatic peda infused with saffron and cardamom.",
+    ingredients: "Milk, Sugar, Saffron, Cardamom, Ghee",
+    rating: 4.6,
+    reviews: 92,
+  },
+  {
+    id: 17,
+    name: "Badam Halwa",
+    price: 450,
+    originalPrice: 500,
+    image: "/assets/Images/badam_halwa.png",
+    category: "Sweets",
+    weight: "250 Gms",
+    shelfLife: "6 Days",
+    description:
+      "Rich almond halwa with a melt-in-mouth texture and golden color.",
+    ingredients: "Almonds, Sugar, Ghee, Cardamom",
+    rating: 4.8,
+    reviews: 110,
+  },
+  {
+    id: 18,
+    name: "Chocolate Barfi",
+    price: 295,
+    originalPrice: 340,
+    image:
+      "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80",
+    category: "Sweets",
+    weight: "250 Gms",
+    shelfLife: "8 Days",
+    description:
+      "Delicious chocolate flavored barfi, a fusion of tradition and modern taste.",
+    ingredients: "Milk, Sugar, Cocoa, Ghee, Cardamom",
+    rating: 4.5,
+    reviews: 67,
+  },
+  {
+    id: 19,
+    name: "Dhokla",
+    price: 180,
+    originalPrice: 210,
+    image:
+      "https://images.unsplash.com/photo-1603079841834-7b7c6b6b6b6b?auto=format&fit=crop&w=800&q=80",
+    category: "Snacks",
+    weight: "300 Gms",
+    shelfLife: "2 Days",
+    description: "Soft and spongy dhokla, a popular Gujarati snack.",
+    ingredients: "Gram flour, Yogurt, Spices, Eno, Oil",
+    rating: 4.7,
+    reviews: 88,
+  },
+  {
+    id: 20,
+    name: "Kesar Jalebi",
+    price: 220,
+    originalPrice: 260,
+    image:
+      "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80",
+    category: "Sweets",
+    weight: "250 Gms",
+    shelfLife: "2 Days",
+    description: "Crispy and juicy jalebis flavored with saffron.",
+    ingredients: "Flour, Sugar, Saffron, Ghee",
+    rating: 4.9,
+    reviews: 134,
+  },
 ];
-
-
 
 export default Products;
